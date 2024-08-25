@@ -5,6 +5,7 @@ This is especially useful for debugging and tracing logs during test execution, 
 ## How to Use:
 Below are samples of how to integrate the package into a test project using the MSTest framework:
 ```csharp
+using Microsoft.Extensions.Logging;
 [TestClass]
 public class MyFactoryTests
 {
